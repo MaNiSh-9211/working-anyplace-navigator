@@ -12,3 +12,9 @@
 /captures
 .externalNativeBuild
 .cxx
+
+# --- security: local env & deps ---
+.env
+.env.*
+!*.env.example
+node_modules/
